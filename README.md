@@ -16,7 +16,8 @@ pip install -r requirements.txt
 ```shell script
 python main.py 앞출석스샷폴더 뒤출석스샷폴더 apikey
 ```
-apikey는 보안상 github에 올리지 않았습니다
+apikey는 보안상 github에 올리지 않았습니다<br/>
+스샷 찍을때 그 닉네임 왼쪽에 아이콘? 그 부분은 스샷에 없는게 좋습니다! 거기도 글자로 인식합니다 ㅠ
 
 ### 사용해본 결과
 문자 인식률이 그래도 괜찮습니다. 일부 요상하게 뜨는 이름들(전현국 -> 전헌국)이 있기는 한데<br/>
