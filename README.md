@@ -12,6 +12,11 @@
 ```shell script
 pip install -r requirements.txt
 ```
+### 사용 방법
+```shell script
+python main.py 앞출석스샷폴더 뒤출석스샷폴더 apikey
+```
+apikey는 보안상 github에 올리지 않았습니다
 
 ### 사용해본 결과
 문자 인식률이 그래도 괜찮습니다. 일부 요상하게 뜨는 이름들(전현국 -> 전헌국)이 있기는 한데<br/>
