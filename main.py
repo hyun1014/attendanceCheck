@@ -64,8 +64,8 @@ def get_attendance_list(image_path, appkey):
     for target_image_path in target_image_list:
         output = kakao_ocr(target_image_path, appkey).json()
         tmp = output["result"]
-        for dick in tmp:
-            tar = dick["recognition_words"][0]
+        for dic in tmp:
+            tar = dic["recognition_words"][0]
             attendance_list.append(tar)
 
     return attendance_list
